@@ -51,7 +51,7 @@ Supports uploading and processing:
 |-------------|-------------|
 | Backend     | Python 3.12, FAISS, Chroma, LangChain, PyPDF2, python-docx, pandas, python-pptx |
 | Frontend    | Streamlit, Custom CSS |
-| LLM Engine  | Zephyr via Ollama (default), Gemini via API (optional) |
+| LLM Engine  | Zephyr via Ollama (optional), Gemini via API (default) |
 | Storage     | CSV logs, FAISS indexes, Chroma SQLite DBs |
 
 ### 🧱 Core Components
@@ -61,7 +61,7 @@ Supports uploading and processing:
 - **Document Processor**: Uses format-specific loaders and chunking logic
 - **LLMs**: 
   - Offline: `Zephyr` (via Ollama)
-  - Online (optional): `Gemini` (via API key)
+  - Online (default): `Gemini` (via API key)
 - **Dashboards**: Role-based features for teachers and students
 
 ---
@@ -71,8 +71,8 @@ Supports uploading and processing:
 ### 📋 Prerequisites
 - Python 3.12+
 - Git
-- Ollama installed
-- *(Optional)* Google Gemini API Key for online LLM access
+- Ollama installed(optional)
+- Google Gemini API Key 
 
 ### 🔧 Installation
 git clone https://github.com/jiasiva/AI_TUTOR_RAG.git
@@ -95,12 +95,13 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ### ▶️ Run the Application
 
- # Start LLM if using Ollama
+  Start LLM if using Ollama
 **ollama run zephyr**
 
-# Then start the app
+ Then start the app
 **streamlit run app.py**
 then open your browser and visit: http://localhost:8501
+
 ## 📚 How to Use
 
 ### 👩‍🏫 For Teachers
