@@ -101,25 +101,28 @@ GEMINI_API_KEY=your_gemini_api_key_here
 # Then start the app
 **streamlit run app.py**
 then open your browser and visit: http://localhost:8501
+## 📚 How to Use
 
-### 📚 How to Use
+### 👩‍🏫 For Teachers
 
-**👩‍🏫 For Teachers**
-1.Upload documents related to topics (PDFs, PPTs, DOCX, etc.)
-2.Use the dashboard to generate quizzes
-3.Export/share quiz questions
-4.Use the lesson plan generator for daily planning
+1. Upload documents related to topics (PDFs, PPTs, DOCX, etc.)  
+2. Use the dashboard to generate quizzes  
+3. Export/share quiz questions  
+4. Use the lesson plan generator for daily planning  
 
-**🧑‍🎓 For Students**
-1.Ask subject-related questions in the chatbot
-2.Participate in quizzes
-3.Upload answer sheets for review (PDF/TXT)
+### 🧑‍🎓 For Students
 
-### 🔮 Future Enhancements:
- 
-🗣️ Voice-based input and speech response
-🧾 OCR for scanned answer paper analysis
-📊 Visual dashboards for student progress
-🌐 Multilingual support (e.g., Tamil, Hindi)
-🧠 Personalized learning path suggestions
-⚡ Caching and faster document processing
+1. Ask subject-related questions in the chatbot  
+2. Participate in quizzes  
+3. Upload answer sheets for review (PDF/TXT)  
+4. View feedback and performance logs  
+
+## 🔮 Future Enhancements
+
+- 🗣️ Voice-based input and speech response  
+- 🧾 OCR for scanned answer paper analysis  
+- 📊 Visual dashboards for student progress  
+- 🌐 Multilingual support (e.g., Tamil, Hindi)  
+- 🧠 Personalized learning path suggestions  
+- ⚡ Caching and faster document processing  
+
