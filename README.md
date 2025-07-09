@@ -73,17 +73,27 @@ Supports uploading and processing:
 - Git
 - Ollama installed(optional)
 - Google Gemini API Key 
-
 ### 🔧 Installation
+```
+#Clone the repository
 git clone https://github.com/jiasiva/AI_TUTOR_RAG.git
+
+#Navigate into the project folder
 cd AI_TUTOR_RAG
+
+#Create a virtual environment
 python -m venv env
-env\Scripts\activate     # Windows
-      OR
-source env/bin/activate  # macOS/Linux
 
+#Activate the environment (choose based on your OS)
+#👉 For Windows
+env\Scripts\activate
+
+#👉 For macOS/Linux
+source env/bin/activate
+
+#Install required Python packages
 pip install -r requirements.txt
-
+```
 
 ### 🔐 Environment Setup (for Gemini)
 
