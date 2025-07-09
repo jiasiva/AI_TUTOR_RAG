@@ -86,16 +86,15 @@ source env/bin/activate  # macOS/Linux
 
 pip install -r requirements.txt
 
+## 🔐 Environment Setup (for Gemini)
 
-##🔐 Environment Setup (for Gemini)
-
-Create a .env file in the root directory and add:
+Create a `.env` file in the root directory and add:
 
 GEMINI_API_KEY=your_gemini_api_key_here
 
 
 
-##▶️ Run the Application
+## ▶️ Run the Application
 
 # Start LLM if using Ollama
 ollama run zephyr
@@ -104,20 +103,20 @@ ollama run zephyr
 streamlit run app.py
 Open your browser and visit: http://localhost:8501
 
-##📚 How to Use
-👩‍🏫 For Teachers
+## 📚 How to Use
+### 👩‍🏫 For Teachers
 1.Upload documents related to topics (PDFs, PPTs, DOCX, etc.)
 2.Use the dashboard to generate quizzes
 3.Export/share quiz questions
 4.Use the lesson plan generator for daily planning
 
-#🧑‍🎓 For Students
+### 🧑‍🎓 For Students
 1.Ask subject-related questions in the chatbot
 2.Participate in quizzes
 3.Upload answer sheets for review (PDF/TXT)
 
-##🔮 Future Enhancements:
-
+## 🔮 Future Enhancements:
+ 
 🗣️ Voice-based input and speech response
 🧾 OCR for scanned answer paper analysis
 📊 Visual dashboards for student progress
