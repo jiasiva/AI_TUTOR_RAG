@@ -95,21 +95,22 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ### ▶️ Run the Application
 
-# Start LLM if using Ollama
+ # Start LLM if using Ollama
 ollama run zephyr
 
 # Then start the app
 streamlit run app.py
-Open your browser and visit: http://localhost:8501
+then open your browser and visit: http://localhost:8501
 
 ### 📚 How to Use
-## 👩‍🏫 For Teachers
+
+**👩‍🏫 For Teachers**
 1.Upload documents related to topics (PDFs, PPTs, DOCX, etc.)
 2.Use the dashboard to generate quizzes
 3.Export/share quiz questions
 4.Use the lesson plan generator for daily planning
 
-## 🧑‍🎓 For Students
+**🧑‍🎓 For Students**
 1.Ask subject-related questions in the chatbot
 2.Participate in quizzes
 3.Upload answer sheets for review (PDF/TXT)
