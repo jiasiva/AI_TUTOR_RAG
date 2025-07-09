@@ -79,7 +79,7 @@ git clone https://github.com/jiasiva/AI_TUTOR_RAG.git
 cd AI_TUTOR_RAG
 python -m venv env
 env\Scripts\activate     # Windows
-# OR
+      OR
 source env/bin/activate  # macOS/Linux
 
 pip install -r requirements.txt
@@ -96,10 +96,10 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ### ▶️ Run the Application
 
  # Start LLM if using Ollama
-ollama run zephyr
+**ollama run zephyr**
 
 # Then start the app
-streamlit run app.py
+**streamlit run app.py**
 then open your browser and visit: http://localhost:8501
 
 ### 📚 How to Use
