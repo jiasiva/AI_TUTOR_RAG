@@ -3,11 +3,11 @@
 
 **AI_TUTOR_RAG** is a multimodal, AI-powered educational assistant designed for personalized learning. It combines document-based retrieval, large language model generation, and role-based dashboards for students and teachers. The system supports real-time quiz generation, chatbot Q&A, lesson planning, and answer paper review.
 
-Demo video :
-https://drive.google.com/file/d/12aXfd0chJbvPZf_693JlUDSmLs1E1gsc/view?usp=drivesdk
+Demo video:
+https://drive.google.com/drive/folders/14Th8xa9aI8a5LNlqEAaiiFkMf_XdwTeR
 
 Report:
-https://drive.google.com/file/d/12aXfd0chJbvPZf_693JlUDSmLs1E1gsc/view?usp=drivesdk
+https://drive.google.com/drive/folders/14Th8xa9aI8a5LNlqEAaiiFkMf_XdwTeR
 
 ---
 
